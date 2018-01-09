@@ -1,0 +1,10 @@
+<h3><%= @user.name %></h3>
+<h3><%= @user.email %></h3>
+
+<p>Produtos</p>
+<ul>
+  <% @user.products.each do |product| %>
+    <li><%= product.name %>
+  <% end %>
+  <p>Total: <%= @user.products.size %></p>
+</ul>
