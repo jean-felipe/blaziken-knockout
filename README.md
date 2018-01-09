@@ -1,24 +1,14 @@
-# README
+# Blaziken Knockout
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Servidor basico, para aprender, praticar e testar mongoDB, Rails e GraphQL.
 
-Things you may want to cover:
+### Instruções de uso
 
-* Ruby version
+- Instale o mongoDB no seu ambiente, siga as instruções do site oficial.
+- Instale o Ruby no seu ambiente, gosto do RVM, mas pose usar o que preferir.
+- Instale o Rails com o comando: ` gem install rails .
+- Clone o projeto, acesse o mesmo pelo seu terminal e rode os seguintes comandos:
+- `bundle install` -> Isso irá instalar todas as dependencias do projeto.
+- `rake db:seed` -> Isso vai criar no banco de dados varios registros.
+- `rails s` -> Inicie o servidor e pronto, pode usar.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
