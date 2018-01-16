@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'annotate'
 
+gem 'graphql', '~> 1.6.4'
+gem 'graphiql-rails', group: :development
+
 # MongoDB client
 gem 'mongoid', '~> 6.1.0'
 # gem "mongoid-enum"
